@@ -1,11 +1,14 @@
-<p align="center"> <img src="https://imgur.com/1mc1qX7.png" alt="JavaScript: trabalhando com threads para requisições simultâneas"> </p>
+# Threads JavaScript
 
-<hr>
+## Sumário
 
-<p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
-<p align="center">Bytebank: o seu banco digital!</p>
+- [Sobre o Projeto](#sobre-o-projeto)
+  - [Funcionalidades](#funcionalidades)
+- [Instalações](#instalacao)
+- [Conclusão](#conclusão)
 
-## Assuntos abordados durante o curso
+## Sobre o Projeto
+
 * Fetch API
 * Threads
 * Concorrência
@@ -16,7 +19,16 @@
 * Single Thread
 * MultiThread
 
-## Tecnologias utilizadas no projeto
-* HTML
-* CSS
-* JavaScript
+### Funcionalidades
+
+
+
+## Instalações
+
+
+
+
+
+
+
+
