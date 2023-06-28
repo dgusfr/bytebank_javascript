@@ -3,7 +3,7 @@
 ## Sumário
 
 - [Sobre o Projeto](#sobre-o-projeto)
-  - [Funcionalidades](#funcionalidades)
+  - [Funcionalidades](#Ferramentas)
 - [Instalações](#instalacao)
 - [Conclusão](#conclusão)
 
@@ -19,7 +19,9 @@
 * Single Thread
 * MultiThread
 
-### Funcionalidades
+### Ferramentas
+
+* Chart JS
 
 
 
