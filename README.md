@@ -1,4 +1,4 @@
-# Threads JavaScript
+# Threads no JavaScript
 
 ## Sumário
 
