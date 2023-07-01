@@ -4,28 +4,18 @@
 
 - [Sobre o Projeto](#sobre-o-projeto)
   - [Funcionalidades](#Ferramentas)
-- [Instalações](#instalacao)
-- [Conclusão](#conclusão)
+
 
 ## Sobre o Projeto
 
-* Fetch API
-* Threads
-* Concorrência
-* Paralelismo
-* Event Loop
-* Task Queue
-* WebWorkers
-* Single Thread
-* MultiThread
+
+Este projeto utiliza conceitos e ferramentas como Fetch API, Threads e Event Loop para fazer requisições em uma API de cotação de moedas (no caso usando Dolar).
 
 ### Ferramentas
 
-* Chart JS
+A principal ferramenta usada nesse projeto é o Chart JS que é uma biblioteca de gráficos JavaScript de código aberto que permite a criação de gráficos interativos e responsivos em páginas da web, no caso, os gráficos de cotação do Dollar.
 
 
-
-## Instalações
 
 
 
