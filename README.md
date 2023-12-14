@@ -3,7 +3,7 @@
 Este é um projeto simples em HTML, CSS e JavaScript que exibe a variação e valores de cotação de duas moedas (dólar e iene) no ByteBank.
 
 <div align="center">
-  <img src="img/proj2.png" alt="Imagem do Projeto">
+  <img src="img/proj1.png" alt="Imagem do Projeto">
 </div>
 
 #### Após algum tempo:
