@@ -2,7 +2,7 @@
 
 Projeto de monitoramento de cotação de moedas no ByteBank.
 
-# Visual do projeto
+### Visual do projeto
 
 <div align="center">
   <img src="img/proj1.png" alt="Imagem do Projeto" width="700">
