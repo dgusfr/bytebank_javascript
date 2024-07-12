@@ -90,67 +90,66 @@
     align-items: center;
     background-color: var(--roxo);
     padding: 5em 0;
-  
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));
-  }
+}
   
-  .sidebar__avatar {
+.sidebar__avatar {
     width: 150px;
     border-radius: 100%;
     margin: 1em 0;
-  }
+}
   
-  .sidebar h2 {
+.sidebar h2 {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     color: white;
-  }
+}
   
-  .sidebar__links {
+.sidebar__links {
     display: flex;
     flex-direction: column;
-  }
+}
   
-  .sidebar__links a {
+.sidebar__links a {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: white;
     text-decoration: none;
     margin: 1em 0;
-  }
+}
   
-  .sidebar__links a:first-of-type {
+.sidebar__links a:first-of-type {
     color: var(--verde-escuro);
-  }
+}
   
-  .sidebar__linha {
+.sidebar__linha {
     margin: 3em 0;
     color: black;
     width: 50%;
-  }
+}
   
-  .links__icone {
+.links__icone {
     padding-left: 2em;
     background-repeat: no-repeat;
-  }
+}
   
-  .dashboard {
+.dashboard {
     background-image: url("../img/icon-dashboard.png");
-  }
+}
   
-  .cofre {
+.cofre {
     background-image: url("../img/icon-cofre.png");
-  }
+}
   
-  .configuracao {
+.configuracao {
     background-image: url("../img/icon-configuracao.png");
-  }
+}
   
-  .duvida {
+.duvida {
     background-image: url("../img/icon-duvida.png");
-  }
+}
   
 
 /* Rodape */
@@ -158,4 +157,81 @@
     padding-bottom: 2em;
     text-align: center;
     color: var(--roxo);
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    .sidebar__links {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sidebar__links a {
+        margin: 0.5em;
+        font-size: 14px;
+    }
+
+    .dadosDolar,
+    .dadosIene {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding: 1em;
+    }
+
+    .grafico {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .grafico__titulo h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cabecalho {
+        font-size: 12px;
+        padding: 0.5em;
+    }
+
+    .sidebar {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em 0;
+    }
+
+    .sidebar__links a {
+        margin: 0.5em 0;
+        font-size: 12px;
+    }
+
+    .dadosDolar,
+    .dadosIene {
+        margin: 1em auto;
+        padding: 1em;
+        width: 100%;
+    }
+
+    .grafico__titulo h2 {
+        font-size: 18px;
+    }
+
+    .investimentos__lista {
+        margin: 1em;
+    }
+
+    .investimentos__lista li {
+        margin: 0.5em 0;
+    }
 }
