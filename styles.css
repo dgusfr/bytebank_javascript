@@ -1,8 +1,3 @@
-@import url("./styles/grafico.css");
-@import url("./styles/cabecalho.css");
-@import url("./styles/rodape.css");
-@import url("./styles/sidebar.css");
-
 :root {
     --lilas: #E4E9F6;
     --roxo: #783EFD;
@@ -24,4 +19,143 @@
     height: 100vh;
     grid-template-columns: 20% auto;
     background-color: var(--lilas);
+}
+
+/* Cabeçalho */
+.cabecalho {
+    text-align: center;
+    background-color: white;
+    color: var(--roxo);
+    padding: 1em 0;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* grafico */
+.dadosDolar,
+.dadosIene {
+  margin: 3em auto;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 24px;
+  width: 65%;
+  color: var(--cinza);
+}
+
+.grafico {
+  width: 30vw;
+}
+
+.grafico__titulo {
+  display: flex;
+  align-items: center;
+}
+
+.grafico__titulo span {
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 40px;
+}
+
+.grafico__ilustracao-dolar {
+  background-image: url("../img/cifrao.png");
+}
+
+.grafico__ilustracao-iene {
+  background-image: url("../img/iene.png");
+}
+
+.grafico__titulo h2 {
+  color: var(--cinza);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.investimentos__lista {
+  margin: 2em;
+  color: var(--cinza);
+}
+
+.investimentos__lista li {
+  margin: 1em 0;
+}
+
+/* Side bar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--roxo);
+    padding: 5em 0;
+  
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));
+  }
+  
+  .sidebar__avatar {
+    width: 150px;
+    border-radius: 100%;
+    margin: 1em 0;
+  }
+  
+  .sidebar h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+  }
+  
+  .sidebar__links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar__links a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    margin: 1em 0;
+  }
+  
+  .sidebar__links a:first-of-type {
+    color: var(--verde-escuro);
+  }
+  
+  .sidebar__linha {
+    margin: 3em 0;
+    color: black;
+    width: 50%;
+  }
+  
+  .links__icone {
+    padding-left: 2em;
+    background-repeat: no-repeat;
+  }
+  
+  .dashboard {
+    background-image: url("../img/icon-dashboard.png");
+  }
+  
+  .cofre {
+    background-image: url("../img/icon-cofre.png");
+  }
+  
+  .configuracao {
+    background-image: url("../img/icon-configuracao.png");
+  }
+  
+  .duvida {
+    background-image: url("../img/icon-duvida.png");
+  }
+  
+
+/* Rodape */
+.rodape {
+    padding-bottom: 2em;
+    text-align: center;
+    color: var(--roxo);
 }
